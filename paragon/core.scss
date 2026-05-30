@@ -1,0 +1,7 @@
+// Assembled by `paragon build-scss` into the published `dist/core.css`.
+// `@use` the generated token CSS below so it ends up in the bundle. Non-tokenizable
+// CSS (custom @media, brand selectors) can also go here; font @imports go in _fonts.scss.
+
+@use "./fonts";
+@use "./build/core/variables";
+// @use "./build/core/custom-media-breakpoints";

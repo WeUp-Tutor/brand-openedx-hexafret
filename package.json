@@ -1,0 +1,37 @@
+{
+  "name": "@openedx/brand-openedx",
+  "version": "0.0.0-dev",
+  "description": "The default branding and SASS theme package containing for Open edX applications. This package is designed to be copied and customized.",
+  "exports": {
+    "./*": "./dist/*"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "make build",
+    "build-tokens": "make build-tokens",
+    "build-scss": "make build-scss",
+    "prepack": "make build",
+    "build:watch": "nodemon --ignore dist -x \"make build\"",
+    "clean": "make clean",
+    "paragon:help": "paragon help"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/openedx/brand-openedx.git"
+  },
+  "author": "Open edX Community",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/openedx/brand-openedx/issues"
+  },
+  "homepage": "https://github.com/openedx/brand-openedx#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@openedx/paragon": "^23.0.0",
+    "nodemon": "^3.1.10"
+  }
+}
