@@ -1,5 +1,5 @@
 {
-  "name": "@openedx/brand-openedx",
+  "name": "@edx/brand",
   "version": "0.0.0-dev",
   "description": "The default branding and SASS theme package containing for Open edX applications. This package is designed to be copied and customized.",
   "exports": {
@@ -19,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/openedx/brand-openedx.git"
+    "url": "git+https://github.com/WeUp-Tutor/brand-openedx-hexafret"
   },
   "author": "Open edX Community",
   "license": "GPL-3.0-or-later",
